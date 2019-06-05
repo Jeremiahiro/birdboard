@@ -1,0 +1,26 @@
+// Variables
+@import 'variables';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import 'themes/light';
+@import 'themes/dark';
+
+@import 'components/button';
+@import 'components/card';
+@import 'components/dropdown';
+
+body,
+button {
+    @apply .text-default;
+}
+
+.section {
+    @apply .px-8;
+}
+
+
+
